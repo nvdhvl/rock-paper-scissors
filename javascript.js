@@ -57,7 +57,7 @@ function playRound(computerChoice, humanChoice) {
     }
     }
     }
-}
+};
 
 function playGame() {
     for (let i = 0; i < 5; i++) {
@@ -72,16 +72,16 @@ function playGame() {
     }
 
     if (computerScore === humanScore) {
-        console.log("FINAL: It's a draw!")
+        console.log("FINAL: It's a draw!");
     } else { if (computerScore > humanScore) {
-        console.log("FINAL: Computer wins!")
+        console.log("FINAL: Computer wins!");
     } else { if (computerScore < humanScore) {
-        console.log("FINAL: You win!")
+        console.log("FINAL: You win!");
+    } else {
+        console.log("FINAL: There's a bug!");
     }
-        console.log("FINAL: There's a bug!")
     }
-        
     }
-}
+};
 
-playGame()
+playGame();
